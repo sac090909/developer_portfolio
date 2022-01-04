@@ -11,7 +11,7 @@ div .orange-name {
   color: orange;
 }
 
-section {
+.flexiable-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -24,6 +24,10 @@ section {
 .half-width-sec2 {
   width: 50%;
   padding-right: 2%;
+}
+
+.half-width-sec3 {
+  width: 50%;
 }
 
 .half-width-sec1 img {
@@ -48,6 +52,9 @@ section {
 .sec-para {
   text-align: justify;
 }
+.third-para {
+  text-align: justify;
+}
 
 .top-banner {
   background-image: url(images/top-banner.png);
@@ -59,7 +66,39 @@ section {
   background-position: right;
 }
 
+.half-width-sec3 {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 5px 20px gray;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .myPicture {
   width: 400px;
   height: auto;
+}
+
+#exp-full-dev {
+  border-left: 8px solid;
+  border-image: linear-gradient(salmon, orange);
+  border-image-slice: 1;
+}
+
+#exp-baby-dev {
+  border-left: 8px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
+  font-weight: lighter;
 }

@@ -13,14 +13,23 @@ div .orange-name {
 
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 
-.half-width {
+.half-width-sec1 {
   width: 50%;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
-.half-width img {
+.half-width-sec2 {
+  width: 50%;
+  padding-right: 2%;
+}
+
+.half-width-sec1 img {
+  width: 80%;
+}
+.half-width-sec2 img {
   width: 80%;
 }
 
@@ -36,10 +45,18 @@ section {
 .first-para {
   text-align: justify;
 }
+.sec-para {
+  text-align: justify;
+}
 
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .myPicture {
